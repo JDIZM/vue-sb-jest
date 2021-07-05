@@ -6,4 +6,9 @@ module.exports = {
   },
   transformIgnorePatterns: ["/node_modules/(?!(@storybook/.*\\.vue$))"],
   moduleFileExtensions: ["vue", "js", "jsx", "json", "node"],
+  collectCoverage: true,
+  collectCoverageFrom: [
+    "<rootDir>/src/components/**/*.vue",
+    "<rootDir>/src/pages/**/*.vue",
+  ],
 };
