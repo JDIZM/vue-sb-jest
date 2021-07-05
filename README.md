@@ -1,5 +1,7 @@
 # test-jest
 
+A default vue project that installs storybook and works with jest.
+
 ## Project setup
 ```
 yarn install
